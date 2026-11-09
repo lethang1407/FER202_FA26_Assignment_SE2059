@@ -25,7 +25,9 @@ npm run server
 npm start
 ```
 
-Ứng dụng chạy tại [http://localhost:3000](http://localhost:3000); API chạy tại [http://localhost:9999](http://localhost:9999). Để chạy test: `npm test -- --watchAll=false`. Tạo bản build: `npm run build`.
+Ứng dụng chạy tại [http://localhost:3000](http://localhost:3000); API chạy tại [http://localhost:9999](http://localhost:9999). Tạo bản build: `npm run build`.
+
+Các thư mục test (`__tests__`) đã được xóa theo yêu cầu, nên hiện không còn test tự động để chạy bằng `npm test`. Kết quả test trước khi xóa được ghi trong báo cáo bàn giao.
 
 ## Tài khoản demo
 

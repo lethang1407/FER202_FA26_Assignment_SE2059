@@ -6,10 +6,12 @@
 
 ## Kết quả kiểm thử
 
-- `npm test -- --watchAll=false --runInBand`: 15 bộ kiểm thử, 80 test đạt.
+- Trước khi xóa các thư mục `__tests__` theo yêu cầu: `npm test -- --watchAll=false --runInBand` đạt 15 bộ kiểm thử, 80 test.
 - `npm run build`: build production thành công.
 - Kiểm tra smoke test trong môi trường phát triển: frontend trả HTTP 200 ở cổng 3000, API trả HTTP 200 cho `/rooms` và `/invoices` ở cổng 9999.
 - Bộ dữ liệu mẫu: 10 phòng, 8 người thuê, 7 hợp đồng, 14 hóa đơn; tài khoản demo `admin / 123456`.
+
+**Lưu ý:** các thư mục và file kiểm thử tự động đã được gỡ theo yêu cầu sau lần chạy trên. Hiện tại `npm test` không có test source để thực thi; khôi phục các thư mục `__tests__` nếu cần chạy lại regression suite.
 
 ## Ảnh giao diện
 
